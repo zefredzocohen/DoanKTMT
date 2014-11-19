@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MLMidi</name>
+    </assembly>
+    <members>
+        <member name="T:MLMidi.ReadFile">
+            <summary>
+            The ReadFile class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            D:\Users\zero\Desktop\new\src\readmidi.m
+            <newpara></newpara>
+            deployprint.m
+            <newpara></newpara>
+            printdlg.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:MLMidi.ReadFile.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Compiler Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:MLMidi.ReadFile.#ctor">
+            <summary>
+            Constructs a new instance of the ReadFile class.
+            </summary>
+        </member>
+        <member name="M:MLMidi.ReadFile.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:MLMidi.ReadFile.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:MLMidi.ReadFile.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the readmidi MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the readmidi MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="filename">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the readmidi MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="filename">Input argument #1</param>
+             <param name="rawbytes">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the readmidi MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the readmidi MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="filename">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the readmidi MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="filename">Input argument #1</param>
+             <param name="rawbytes">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.readmidi(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the readmidi function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             midi = readmidi(filename, rawbytes)
+             midi = readmidi(filename)
+             Read MIDI file and store in a Matlab structure
+             (use midiInfo.m to see structure detail)
+             Inputs:
+             filename - input MIDI file
+             rawbytes - 0 or 1: Include raw bytes in structure
+             This info is redundant, but can be
+             useful for debugging. default=0
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:MLMidi.ReadFile.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+        <member name="T:MLMidi.AnalysisFile">
+            <summary>
+            The AnalysisFile class provides a CLS compliant, MWArray interface to the MATLAB
+            functions contained in the files:
+            <newpara></newpara>
+            D:\Users\zero\Desktop\new\src\midiInfo.m
+            </summary>
+            <remarks>
+            @Version 0.0
+            </remarks>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.#cctor">
+            <summary internal= "true">
+            The static constructor instantiates and initializes the MATLAB Compiler Runtime
+            instance.
+            </summary>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.#ctor">
+            <summary>
+            Constructs a new instance of the AnalysisFile class.
+            </summary>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.Finalize">
+            <summary internal= "true">
+            Class destructor called by the CLR garbage collector.
+            </summary>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.Dispose">
+            <summary>
+            Frees the native resources associated with this object
+            </summary>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.Dispose(System.Boolean)">
+            <summary internal= "true">
+            Internal dispose function
+            </summary>
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo">
+             <summary>
+             Provides a single output, 0-input MWArrayinterface to the midiInfo MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 1-input MWArrayinterface to the midiInfo MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="midi">Input argument #1</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 2-input MWArrayinterface to the midiInfo MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 3-input MWArrayinterface to the midiInfo MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <param name="tracklist">Input argument #3</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides a single output, 4-input MWArrayinterface to the midiInfo MATLAB
+             function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <param name="tracklist">Input argument #3</param>
+             <param name="verbose">Input argument #4</param>
+             <returns>An MWArray containing the first output argument.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32)">
+             <summary>
+             Provides the standard 0-input MWArray interface to the midiInfo MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 1-input MWArray interface to the midiInfo MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="midi">Input argument #1</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 2-input MWArray interface to the midiInfo MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 3-input MWArray interface to the midiInfo MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <param name="tracklist">Input argument #3</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray,MathWorks.MATLAB.NET.Arrays.MWArray)">
+             <summary>
+             Provides the standard 4-input MWArray interface to the midiInfo MATLAB function.
+             </summary>
+             <remarks>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return.</param>
+             <param name="midi">Input argument #1</param>
+             <param name="outputFormat">Input argument #2</param>
+             <param name="tracklist">Input argument #3</param>
+             <param name="verbose">Input argument #4</param>
+             <returns>An Array of length "numArgsOut" containing the output
+             arguments.</returns>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.midiInfo(System.Int32,MathWorks.MATLAB.NET.Arrays.MWArray[]@,MathWorks.MATLAB.NET.Arrays.MWArray[])">
+             <summary>
+             Provides an interface for the midiInfo function in which the input and output
+             arguments are specified as an array of MWArrays.
+             </summary>
+             <remarks>
+             This method will allocate and return by reference the output argument
+             array.<newpara></newpara>
+             M-Documentation:
+             [Notes,endtime] = midiInfo(midi,outputFormat,tracklist)
+             Takes a midi structre and generates info on notes and messages
+             Can return a matrix of note parameters and/or output/display 
+             formatted table of messages
+             Inputs:
+             midi - Matlab structure (created by readmidi.m)
+             tracklist - which tracks to show ([] for all)
+             outputFormat
+             - if it's a string write the formated output to the file
+             - if 0, don't display or write formatted output
+             - if 1, just display (default)
+             outputs:
+             Notes - a matrix containing a list of notes, ordered by start time
+             column values are:
+             1     2    3  4   5  6  7       8
+             [track chan nn vel t1 t2 msgNum1 msgNum2]
+             endtime - time of end of track message
+             </remarks>
+             <param name="numArgsOut">The number of output arguments to return</param>
+             <param name= "argsOut">Array of MWArray output arguments</param>
+             <param name= "argsIn">Array of MWArray input arguments</param>
+            
+        </member>
+        <member name="M:MLMidi.AnalysisFile.WaitForFiguresToDie">
+             <summary>
+             This method will cause a MATLAB figure window to behave as a modal dialog box.
+             The method will not return until all the figure windows associated with this
+             component have been closed.
+             </summary>
+             <remarks>
+             An application should only call this method when required to keep the
+             MATLAB figure window from disappearing.  Other techniques, such as calling
+             Console.ReadLine() from the application should be considered where
+             possible.</remarks>
+            
+        </member>
+    </members>
+</doc>

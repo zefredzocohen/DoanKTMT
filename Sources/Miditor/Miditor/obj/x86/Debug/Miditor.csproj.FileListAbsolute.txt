@@ -1,0 +1,10 @@
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\bin\Debug\Miditor.exe
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\bin\Debug\Miditor.pdb
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.Form1.resources
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.Properties.Resources.resources
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.csproj.GenerateResource.Cache
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.exe
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.pdb
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\bin\Debug\MLMidi.dll
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\bin\Debug\MLMidi.xml
+E:\1.hoc tap\Hai\3. 20141\Visual stuido 2010\Miditor\Miditor\obj\x86\Debug\Miditor.csprojResolveAssemblyReference.cache
